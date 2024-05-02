@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart and Wishlist</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <style>
+      /* Custom styling */
+      body {
+        background-color: #f8f9fa;
+      }
+
+      .container {
+        margin-top: 50px;
+      }
+
+      h1 {
+        text-align: center;
+        margin-bottom: 30px;
+        color: #343a40;
+      }
+
+      .card {
+        border: none;
+        border-radius: 10px;
+        background-color: #fff;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      }
+
+      .card-title {
+        color: #343a40;
+      }
+
+      .card-img-top {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+      }
+
+      .card-body {
+        padding: 20px;
+      }
+
+      .btn {
+        border-radius: 5px;
+      }
+
+      .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+      }
+
+      .btn-primary:hover {
+        background-color: #0056b3;
+        border-color: #0056b3;
+      }
+
+      .btn-danger {
+        background-color: #dc3545;
+        border-color: #dc3545;
+      }
+
+      .btn-danger:hover {
+        background-color: #c82333;
+        border-color: #bd2130;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Cart</h1>
+      <div class="row">
+        <!-- Dummy cart items -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="assets/img/products/products/1.jpg"
+              class="card-img-top"
+              alt="Product Image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Product 1</h5>
+              <p class="card-text">$10.00</p>
+              <button class="btn btn-danger">Remove</button>
+            </div>
+          </div>
+        </div>
+        <!-- Add more cart items here -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="assets/img/products/products/2.jpg"
+              class="card-img-top"
+              alt="Product Image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Product 2</h5>
+              <p class="card-text">$15.00</p>
+              <button class="btn btn-danger">Remove</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="assets/img/products/products/3.jpg"
+              class="card-img-top"
+              alt="Product Image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Product 3</h5>
+              <p class="card-text">$20.00</p>
+              <button class="btn btn-danger">Remove</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h1 class="mt-5">Wishlist</h1>
+      <div class="row">
+        <!-- Dummy wishlist items -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="assets/img/products/products/4.jpg"
+              class="card-img-top"
+              alt="Product Image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Product 4</h5>
+              <p class="card-text">$25.00</p>
+              <button class="btn btn-primary">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <!-- Add more wishlist items here -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="assets/img/products/products/5.jpg"
+              class="card-img-top"
+              alt="Product Image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Product 5</h5>
+              <p class="card-text">$30.00</p>
+              <button class="btn btn-primary">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="assets/img/products/products/6.jpg"
+              class="card-img-top"
+              alt="Product Image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Product 6</h5>
+              <p class="card-text">$35.00</p>
+              <button class="btn btn-primary">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS (optional) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
